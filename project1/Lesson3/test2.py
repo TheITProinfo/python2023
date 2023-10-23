@@ -1,3 +1,5 @@
-print(ord("a"))
-print(ord("A"))
-print(chr(97))
+# print(ord("a"))
+ # print(ord("A"))
+# print(chr(ord("A")))
+
+print((ord("a"))%26)
