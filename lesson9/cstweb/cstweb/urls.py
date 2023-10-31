@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path,include
 
 urlpatterns = [
+    # http://xxxx/admin
     path('admin/', admin.site.urls),
     # http://xxxx:8080/bookstore/
     path(r'bookstore/',include('bookstore.urls',namespace='bookstore')),
